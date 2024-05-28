@@ -313,9 +313,7 @@ export default function DutiesPage() {
     /* EOF - Form Validation Functions */
 
     /* Page Component Callbacks */
-    const taskListDeleteBtnCallbackFn = (taskId:any) => {
-        
-        console.log('delete clicked ' + taskId);
+    const taskListDeleteBtnCallbackFn = (taskId:string) => {
 
         deleteId = taskId;
         
