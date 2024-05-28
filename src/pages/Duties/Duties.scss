@@ -1,0 +1,74 @@
+#main_controls_wrapper {
+    margin: 15px 0;
+}
+
+#main_controls_wrapper button {
+    margin: 0 8px;
+}
+
+#main_controls_wrapper button:first-child {
+    margin-left: 0;
+}
+
+#meta_data_wrapper {
+    font-size: 0.9em;
+    color: #999;
+}
+
+#duties_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.task_item {
+    width: calc(100% - 24px);
+    // height: 230px;
+    background: #efefef;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* Main Buttons */
+.btnDelete {
+    float: right;
+}
+
+.btnDelete button {
+    width: 30px;
+    height: 30px;
+}
+
+.btnDelete button .p-button-icon {
+    font-size: 0.8em;
+}
+/* EOF - Main Buttons */
+
+/* Forms */
+.form_sections {
+    margin: 12px 0;
+}
+
+.form_buttons_wrapper {
+    margin: 10px 0;
+}
+
+.form_buttons_wrapper button {
+    margin: 0px 8px;
+}
+
+.form_buttons_wrapper button:first-child {
+    margin-left: 0;
+}
+/* EOF - Forms */
+
+/* Dialog */
+#dialogAdd {
+    width: 80%;
+    max-width: 800px;
+}
+
+#dialogAdd input, #dialogAdd .p-calendar, #dialogAdd .p-inputtextarea, #dialogAdd .p-dropdown {
+    width: 100%;
+}
+/* EOF - Dialog */
