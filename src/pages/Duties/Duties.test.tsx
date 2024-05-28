@@ -40,7 +40,7 @@ describe('Duties Page Render Tests', () => {
     cleanup();
   });
 
-  test('Renders Home Page, with Build and Version information', () => {
+  test('Renders Duties Page, with task list and page meta data', () => {
 
     render(
       <DutiesPage/>
@@ -60,24 +60,5 @@ describe('Duties Page Render Tests', () => {
     expect(element).toBeInTheDocument();
 
   });
-
-  // test('Event firing test', () => {
-
-  //   render(
-  //     <DutiesPage/>
-  //   );
-
-  //   let btnRefresh = screen.getByTestId('btn_refresh');
-
-  //   expect(btnRefresh).toBeInTheDocument();
-    
-  //   // Task List Rendering
-  //   fireEvent.click(btnRefresh);
-
-  //   let txt = screen.getByTestId('test_txt');
-    
-  //   expect(txt.textContent).toMatch(/clicked ([0-9]+)/);
-
-  // });
 
 });
