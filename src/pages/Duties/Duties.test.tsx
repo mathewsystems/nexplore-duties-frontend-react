@@ -19,11 +19,8 @@
  * @web matcphotos.com
  */
 
-import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
-import React from 'react';
+import { cleanup, render, screen } from '@testing-library/react';
 import DutiesPage from './Duties';
-import userEvent from '@testing-library/user-event';
-import axios from 'axios';
 
 // JSDOM Bug Workaroundq
 const originalConsoleError = console.error;
